@@ -1,4 +1,5 @@
 # house list of lists
+#for loop of list
 
 
 house = [["hallway", 11.25], 
@@ -11,7 +12,12 @@ house = [["hallway", 11.25],
 for index, h in enumerate(house): 
     print("the " + h[0] + " is " + str(h[1]) + " sqm")
 
-
-#how about that 
-#second line 
+#for loop of dictionary 
+# Definition of dictionary
+europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
+          'norway':'oslo', 'italy':'rome', 'poland':'warsaw', 'austria':'vienna' }
+          
+# Iterate over europe
+for key, value in europe.items():
+    print("the capital of " + key + " is " + value)
 
